@@ -23,405 +23,338 @@ Group are editorial classifications.
 
 [Acceldata xDP / xLake (AppSpark)](https://docs.acceldata.io/xdp/xdp/xdp-documentation/app-spark) · [Deployment](https://docs.acceldata.io/xdp/xdp/xdp-documentation/deployment-model)
 
-Engine: `spark-derived` · Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `cluster` · Deployment: `self-hosted` · Market: `global`  
-Scope: `data-ai-platform` · Group: `enterprise-platform`
+Engine: `spark-derived` · Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `cluster`  
+Deployment: `self-hosted` · Market: `global` · Scope: `data-ai-platform` · Group: `enterprise-platform`
 
 [Alibaba Cloud AnalyticDB for MySQL (Spark)](https://www.alibabacloud.com/help/en/analyticdb/analyticdb-for-mysql/user-guide/spark-application-configuration-parameters)
 
-Infrastructure: `unknown` · Manager: `unknown`  
-Compute: `serverless` · Deployment: `cloud` · Market: `global`, `cn`  
-Scope: `embedded-spark` · Group: `regional-reference`
+Infrastructure: `unknown` · Manager: `unknown` · Compute: `serverless` · Deployment: `cloud`  
+Market: `global`, `cn` · Scope: `embedded-spark` · Group: `regional-reference`
 
 [Alibaba Cloud EMR on ACK](https://www.alibabacloud.com/help/en/emr/emr-on-ack/getting-started/quick-start-for-emr-on-ack)
 
-Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `cluster` · Deployment: `cloud` · Market: `global`, `cn`  
-Scope: `spark-service` · Group: `regional-reference`
+Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `cluster` · Deployment: `cloud`  
+Market: `global`, `cn` · Scope: `spark-service` · Group: `regional-reference`
 
 [Alibaba Cloud EMR on ECS](https://help.aliyun.com/en/emr/emr-on-ecs/user-guide/create-a-managed-as-policy)
 
-Infrastructure: `vm` · Manager: `yarn`  
-Compute: `cluster` · Deployment: `cloud` · Market: `global`, `cn`  
-Scope: `data-ai-platform` · Group: `regional-reference`
+Infrastructure: `vm` · Manager: `yarn` · Compute: `cluster` · Deployment: `cloud`  
+Market: `global`, `cn` · Scope: `data-ai-platform` · Group: `regional-reference`
 
 [Alibaba Cloud EMR Serverless Spark](https://www.alibabacloud.com/help/en/emr/emr-serverless-spark/user-guide/manage-kyuubi-gateways) · [Overview](https://www.alibabacloud.com/help/en/emr/product-introduction-1)
 
-Engine: `spark-derived` · Infrastructure: `unknown` · Manager: `unknown`  
-Compute: `serverless` · Deployment: `cloud` · Market: `global`, `cn`  
-Scope: `lakehouse-platform` · Group: `regional-reference`
+Engine: `spark-derived` · Infrastructure: `unknown` · Manager: `unknown` · Compute: `serverless`  
+Deployment: `cloud` · Market: `global`, `cn` · Scope: `lakehouse-platform` · Group: `regional-reference`
 
 [Apolo Managed Spark Application](https://docs.apolo.us/index/apolo-console/apps/installable-apps/available-apps/apache-spark)
 
-Infrastructure: `kubernetes` · Manager: `unknown`  
-Compute: `unknown` · Deployment: `unknown` · Market: `global`  
-Scope: `spark-service` · Group: `specialist-challenger`
+Infrastructure: `kubernetes` · Manager: `unknown` · Compute: `unknown` · Deployment: `unknown`  
+Market: `global` · Scope: `spark-service` · Group: `specialist-challenger`
 
 [Arenadata Hyperwave (ADH Cloud)](https://arenadata.tech/ru/news/arenadata-hyperwave-rasshiryaet-vozmozhnosti-oblachnyh-vychislenij-v-novom-relize-adh-cloud)
 
-Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `cluster` · Deployment: `self-hosted` · Market: `ru-cis`  
-Scope: `data-ai-platform` · Group: `regional-reference`
+Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `cluster` · Deployment: `self-hosted`  
+Market: `ru-cis` · Scope: `data-ai-platform` · Group: `regional-reference`
 
 [AWS EMR on EC2](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-scaling.html)
 
-Infrastructure: `vm` · Manager: `yarn`  
-Compute: `cluster` · Deployment: `cloud` · Market: `global`  
-Scope: `data-ai-platform` · Group: `global-benchmark`
+Infrastructure: `vm` · Manager: `yarn` · Compute: `cluster` · Deployment: `cloud`  
+Market: `global` · Scope: `data-ai-platform` · Group: `global-benchmark`
 
 [AWS EMR on EKS](https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/spark-operator.html)
 
-Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `cluster` · Deployment: `cloud` · Market: `global`  
-Scope: `spark-service` · Group: `global-benchmark`
+Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `cluster` · Deployment: `cloud`  
+Market: `global` · Scope: `spark-service` · Group: `global-benchmark`
 
 [AWS EMR Serverless](https://docs.aws.amazon.com/emr/latest/EMR-Serverless-UserGuide/emr-serverless.html)
 
-Infrastructure: `unknown` · Manager: `unknown`  
-Compute: `serverless` · Deployment: `cloud` · Market: `global`  
-Scope: `spark-service` · Group: `global-benchmark`
+Infrastructure: `unknown` · Manager: `unknown` · Compute: `serverless` · Deployment: `cloud`  
+Market: `global` · Scope: `spark-service` · Group: `global-benchmark`
 
 [AWS Glue](https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html)
 
-Infrastructure: `unknown` · Manager: `unknown`  
-Compute: `serverless` · Deployment: `cloud` · Market: `global`  
-Scope: `embedded-spark` · Group: `global-benchmark`
+Infrastructure: `unknown` · Manager: `unknown` · Compute: `serverless` · Deployment: `cloud`  
+Market: `global` · Scope: `embedded-spark` · Group: `global-benchmark`
 
 [Azure HDInsight Classic](https://learn.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-overview)
 
-Infrastructure: `vm` · Manager: `yarn`  
-Compute: `cluster` · Deployment: `cloud` · Market: `global`  
-Scope: `data-ai-platform` · Group: `global-benchmark`
+Infrastructure: `vm` · Manager: `yarn` · Compute: `cluster` · Deployment: `cloud`  
+Market: `global` · Scope: `data-ai-platform` · Group: `global-benchmark`
 
 [Azure Synapse Analytics (Spark pools)](https://learn.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-performance)
 
-Infrastructure: `vm` · Manager: `unknown`  
-Compute: `cluster` · Deployment: `cloud` · Market: `global`  
-Scope: `data-ai-platform` · Group: `global-benchmark`
+Infrastructure: `vm` · Manager: `unknown` · Compute: `cluster` · Deployment: `cloud`  
+Market: `global` · Scope: `data-ai-platform` · Group: `global-benchmark`
 
 [Baidu AI Cloud BMR on CCE](https://cloud.baidu.com/doc/BMR/s/8mh1po82a)
 
-Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `cluster` · Deployment: `cloud` · Market: `cn`  
-Scope: `data-ai-platform` · Group: `regional-reference`
+Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `cluster` · Deployment: `cloud`  
+Market: `cn` · Scope: `data-ai-platform` · Group: `regional-reference`
 
 [Canonical Managed Spark / Charmed Spark](https://canonical.com/data/spark/managed)
 
-Infrastructure: `kubernetes`, `vm` · Manager: `kubernetes`  
-Compute: `cluster` · Deployment: `byoc`, `self-hosted` · Market: `global`  
-Scope: `spark-service` · Group: `enterprise-platform`
+Infrastructure: `kubernetes`, `vm` · Manager: `kubernetes` · Compute: `cluster` · Deployment: `byoc`, `self-hosted`  
+Market: `global` · Scope: `spark-service` · Group: `enterprise-platform`
 
 [China Telecom (CTYun) Data Lake Insight](https://www.ctyun.cn/document/10014065/10118884)
 
-Infrastructure: `unknown` · Manager: `unknown`  
-Compute: `serverless` · Deployment: `cloud` · Market: `cn`  
-Scope: `spark-service` · Group: `regional-reference`
+Infrastructure: `unknown` · Manager: `unknown` · Compute: `serverless` · Deployment: `cloud`  
+Market: `cn` · Scope: `spark-service` · Group: `regional-reference`
 
 [Cloud.ru Evolution Managed Spark](https://cloud.ru/docs/spark/ug/topics/concepts__general)
 
-Infrastructure: `kubernetes` · Manager: `unknown`  
-Compute: `cluster` · Deployment: `cloud` · Market: `ru-cis`  
-Scope: `spark-service` · Group: `regional-reference`
+Infrastructure: `kubernetes` · Manager: `unknown` · Compute: `cluster` · Deployment: `cloud`  
+Market: `ru-cis` · Scope: `spark-service` · Group: `regional-reference`
 
 [Cloudera Data Engineering](https://docs.cloudera.com/data-engineering/1.5.5/deployment-architecture/topics/cde-private-cloud-general-scaling.html)
 
-Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `cluster` · Deployment: `byoc`, `self-hosted` · Market: `global`  
-Scope: `spark-service` · Group: `enterprise-platform`
+Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `cluster` · Deployment: `byoc`, `self-hosted`  
+Market: `global` · Scope: `spark-service` · Group: `enterprise-platform`
 
 [Cloudera Data Hub](https://docs.cloudera.com/data-hub/cloud/manage-clusters/topics/dh-autoscaling-behavior.html)
 
-Infrastructure: `vm` · Manager: `yarn`  
-Compute: `cluster` · Deployment: `byoc` · Market: `global`  
-Scope: `data-ai-platform` · Group: `enterprise-platform`
+Infrastructure: `vm` · Manager: `yarn` · Compute: `cluster` · Deployment: `byoc`  
+Market: `global` · Scope: `data-ai-platform` · Group: `enterprise-platform`
 
 [Databricks Serverless](https://www.databricks.com/product/serverless-compute)
 
-Engine: `spark-derived` · Infrastructure: `unknown` · Manager: `unknown`  
-Compute: `serverless` · Deployment: `cloud` · Market: `global`  
-Scope: `lakehouse-platform` · Group: `global-benchmark`
+Engine: `spark-derived` · Infrastructure: `unknown` · Manager: `unknown` · Compute: `serverless`  
+Deployment: `cloud` · Market: `global` · Scope: `lakehouse-platform` · Group: `global-benchmark`
 
 [Dataiku DSS / Elastic AI](https://doc.dataiku.com/dss/latest/user-isolation/reference-architectures/kubernetes.html)
 
-Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `cluster` · Deployment: `self-hosted` · Market: `global`  
-Scope: `data-ai-platform` · Group: `enterprise-platform`
+Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `cluster` · Deployment: `self-hosted`  
+Market: `global` · Scope: `data-ai-platform` · Group: `enterprise-platform`
 
 [DataOS / Flare (The Modern Data Company)](https://dataos.info/resources/stacks/flare/)
 
-Infrastructure: `kubernetes` · Manager: `unknown`  
-Compute: `unknown` · Deployment: `unknown` · Market: `global`  
-Scope: `embedded-spark` · Group: `enterprise-platform`
+Infrastructure: `kubernetes` · Manager: `unknown` · Compute: `unknown` · Deployment: `unknown`  
+Market: `global` · Scope: `embedded-spark` · Group: `enterprise-platform`
 
 [Dell Data Processing Engine](https://dl.dell.com/content/manual30296549-dell-data-processing-engine-getting-started-guide.pdf?language=en-us)
 
-Engine: `unknown` · Infrastructure: `unknown` · Manager: `unknown`  
-Compute: `unknown` · Deployment: `unknown` · Market: `global`  
-Scope: `data-ai-platform` · Group: `enterprise-platform`
+Engine: `unknown` · Infrastructure: `unknown` · Manager: `unknown` · Compute: `unknown`  
+Deployment: `unknown` · Market: `global` · Scope: `data-ai-platform` · Group: `enterprise-platform`
 
 [Domino Data Lab On-Demand Spark / Domino Cloud](https://docs.domino.ai/cloud/platform-capabilities/features/compute-clusters-hpc)
 
-Infrastructure: `kubernetes` · Manager: `unknown`  
-Compute: `cluster` · Deployment: `cloud`, `self-hosted` · Market: `global`  
-Scope: `data-ai-platform` · Group: `enterprise-platform`
+Infrastructure: `kubernetes` · Manager: `unknown` · Compute: `cluster` · Deployment: `cloud`, `self-hosted`  
+Market: `global` · Scope: `data-ai-platform` · Group: `enterprise-platform`
 
 [Google Cloud Managed Service for Apache Spark on Compute Engine](https://docs.cloud.google.com/managed-spark/docs/concepts/configuring-clusters/autoscaling)
 
-Infrastructure: `vm` · Manager: `yarn`  
-Compute: `cluster` · Deployment: `cloud` · Market: `global`  
-Scope: `data-ai-platform` · Group: `global-benchmark`
+Infrastructure: `vm` · Manager: `yarn` · Compute: `cluster` · Deployment: `cloud`  
+Market: `global` · Scope: `data-ai-platform` · Group: `global-benchmark`
 
 [Google Cloud Managed Service for Apache Spark on GKE](https://docs.cloud.google.com/managed-spark/docs/guides/dpgke/gke-scale-cluster)
 
-Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `cluster` · Deployment: `cloud` · Market: `global`  
-Scope: `spark-service` · Group: `global-benchmark`
+Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `cluster` · Deployment: `cloud`  
+Market: `global` · Scope: `spark-service` · Group: `global-benchmark`
 
 [Google Cloud Managed Service for Apache Spark Serverless](https://docs.cloud.google.com/managed-spark/docs/concepts/serverless-spark-compare)
 
-Infrastructure: `unknown` · Manager: `unknown`  
-Compute: `serverless` · Deployment: `cloud` · Market: `global`  
-Scope: `spark-service` · Group: `global-benchmark`
+Infrastructure: `unknown` · Manager: `unknown` · Compute: `serverless` · Deployment: `cloud`  
+Market: `global` · Scope: `spark-service` · Group: `global-benchmark`
 
 [Hopsworks](https://docs.hopsworks.ai/latest/user_guides/projects/jobs/spark_job/)
 
-Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `unknown` · Deployment: `cloud`, `byoc`, `self-hosted` · Market: `global`  
-Scope: `data-ai-platform` · Group: `enterprise-platform`
+Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `unknown` · Deployment: `cloud`, `byoc`, `self-hosted`  
+Market: `global` · Scope: `data-ai-platform` · Group: `enterprise-platform`
 
 [Huawei Cloud Data Lake Insight](https://support.huaweicloud.com/intl/en-us/productdesc-dli/dli_07_0027.html) · [Architecture](https://support.huaweicloud.com/productdesc-dli/dli-productdesc-pdf.pdf)
 
-Infrastructure: `kubernetes` · Manager: `unknown`  
-Compute: `serverless` · Deployment: `cloud` · Market: `global`, `cn`  
-Scope: `data-ai-platform` · Group: `regional-reference`
+Infrastructure: `kubernetes` · Manager: `unknown` · Compute: `serverless` · Deployment: `cloud`  
+Market: `global`, `cn` · Scope: `data-ai-platform` · Group: `regional-reference`
 
 [Huawei Cloud MRS](https://support.huaweicloud.com/intl/en-us/usermanual-mrs/mrs_01_24728.html)
 
-Infrastructure: `vm` · Manager: `yarn`  
-Compute: `cluster` · Deployment: `cloud` · Market: `global`, `cn`  
-Scope: `data-ai-platform` · Group: `regional-reference`
+Infrastructure: `vm` · Manager: `yarn` · Compute: `cluster` · Deployment: `cloud`  
+Market: `global`, `cn` · Scope: `data-ai-platform` · Group: `regional-reference`
 
 [Huawei Cloud MRS on CCE](https://support.huaweicloud.com/intl/zh-cn/helppanel-mrs/mrs_10_0011.html)
 
-Infrastructure: `kubernetes` · Manager: `unknown`  
-Compute: `cluster` · Deployment: `cloud` · Market: `global`, `cn`  
-Scope: `data-ai-platform` · Group: `regional-reference`
+Infrastructure: `kubernetes` · Manager: `unknown` · Compute: `cluster` · Deployment: `cloud`  
+Market: `global`, `cn` · Scope: `data-ai-platform` · Group: `regional-reference`
 
 [IBM Cloud Analytics Engine](https://cloud.ibm.com/docs/AnalyticsEngine?topic=AnalyticsEngine-serverless-architecture-concepts)
 
-Infrastructure: `unknown` · Manager: `unknown`  
-Compute: `serverless` · Deployment: `cloud` · Market: `global`  
-Scope: `spark-service` · Group: `enterprise-platform`
+Infrastructure: `unknown` · Manager: `unknown` · Compute: `serverless` · Deployment: `cloud`  
+Market: `global` · Scope: `spark-service` · Group: `enterprise-platform`
 
 [IBM watsonx.data Spark / Analytics Engine (Software)](https://www.ibm.com/support/pages/consolidated-patch-ibm-watsonxdata-spark-analytics-engine-cpd-versions-521221)
 
-Infrastructure: `kubernetes` · Manager: `unknown`  
-Compute: `unknown` · Deployment: `self-hosted` · Market: `global`  
-Scope: `data-ai-platform` · Group: `enterprise-platform`
+Infrastructure: `kubernetes` · Manager: `unknown` · Compute: `unknown` · Deployment: `self-hosted`  
+Market: `global` · Scope: `data-ai-platform` · Group: `enterprise-platform`
 
 [Iguazio AI/MLOps Platform](https://www.iguazio.com/docs/latest-release/cluster-mgmt/deployment/support-matrix/) · [Spark service](https://www.iguazio.com/docs/latest-release/services/app-services/spark/)
 
-Infrastructure: `kubernetes` · Manager: `unknown`  
-Compute: `cluster` · Deployment: `byoc`, `self-hosted` · Market: `global`  
-Scope: `data-ai-platform` · Group: `enterprise-platform`
+Infrastructure: `kubernetes` · Manager: `unknown` · Compute: `cluster` · Deployment: `byoc`, `self-hosted`  
+Market: `global` · Scope: `data-ai-platform` · Group: `enterprise-platform`
 
 [Ilum](https://ilum.cloud/docs/architecture/)
 
-Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `cluster` · Deployment: `self-hosted` · Market: `global`  
-Scope: `lakehouse-platform` · Group: `specialist-challenger`
+Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `cluster` · Deployment: `self-hosted`  
+Market: `global` · Scope: `lakehouse-platform` · Group: `specialist-challenger`
 
 [Incorta Cloud (Chidori)](https://community.incorta.com/t5/administration-knowledgebase/incorta-horizontal-scalability-scaling-to-meet-enterprise-needs/ta-p/6932)
 
-Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `serverless` · Deployment: `cloud` · Market: `global`  
-Scope: `embedded-spark` · Group: `enterprise-platform`
+Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `serverless` · Deployment: `cloud`  
+Market: `global` · Scope: `embedded-spark` · Group: `enterprise-platform`
 
 [Informatica Cloud Data Integration (Advanced Clusters)](https://docs.informatica.com/cloud-common-services/administrator/current-version/advanced-clusters/troubleshooting/troubleshooting-an-advanced-cluster-subtask.html)
 
-Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `cluster` · Deployment: `byoc` · Market: `global`  
-Scope: `embedded-spark` · Group: `enterprise-platform`
+Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `cluster` · Deployment: `byoc`  
+Market: `global` · Scope: `embedded-spark` · Group: `enterprise-platform`
 
 [IOMETE Data Lakehouse](https://iomete.com/resources/getting-started/architecture)
 
-Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `cluster` · Deployment: `self-hosted` · Market: `global`  
-Scope: `lakehouse-platform` · Group: `specialist-challenger`
+Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `cluster` · Deployment: `self-hosted`  
+Market: `global` · Scope: `lakehouse-platform` · Group: `specialist-challenger`
 
 [JFrog ML / Qwak](https://docs.jfrog.com/ai-ml/docs/batch-feature-set)
 
-Infrastructure: `unknown` · Manager: `unknown`  
-Compute: `unknown` · Deployment: `unknown` · Market: `global`  
-Scope: `embedded-spark` · Group: `enterprise-platform`
+Infrastructure: `unknown` · Manager: `unknown` · Compute: `unknown` · Deployment: `unknown`  
+Market: `global` · Scope: `embedded-spark` · Group: `enterprise-platform`
 
 [Kauzas Spark](https://kauzas.com/en/kubernetes-data-ai-platform)
 
-Infrastructure: `kubernetes` · Manager: `unknown`  
-Compute: `cluster` · Deployment: `byoc`, `self-hosted` · Market: `global`  
-Scope: `data-ai-platform` · Group: `specialist-challenger`
+Infrastructure: `kubernetes` · Manager: `unknown` · Compute: `cluster` · Deployment: `byoc`, `self-hosted`  
+Market: `global` · Scope: `data-ai-platform` · Group: `specialist-challenger`
 
 [Kingsoft Cloud KMR on KCE](https://docs.ksyun.com/documents/45120)
 
-Infrastructure: `kubernetes` · Manager: `unknown`  
-Compute: `cluster` · Deployment: `cloud` · Market: `cn`  
-Scope: `data-ai-platform` · Group: `regional-reference`
+Infrastructure: `kubernetes` · Manager: `unknown` · Compute: `cluster` · Deployment: `cloud`  
+Market: `cn` · Scope: `data-ai-platform` · Group: `regional-reference`
 
 [Kingsoft Cloud KMR Serverless Compute Engine](https://docs.ksyun.com/documents/43984?type=3)
 
-Infrastructure: `unknown` · Manager: `unknown`  
-Compute: `serverless` · Deployment: `cloud` · Market: `cn`  
-Scope: `spark-service` · Group: `regional-reference`
+Infrastructure: `unknown` · Manager: `unknown` · Compute: `serverless` · Deployment: `cloud`  
+Market: `cn` · Scope: `spark-service` · Group: `regional-reference`
 
 [LinkTime Cloud Kubernetes Data Platform (KDP)](https://www.linktimecloud.com/kubernetes-data-platform)
 
-Infrastructure: `kubernetes` · Manager: `unknown`  
-Compute: `cluster` · Deployment: `self-hosted` · Market: `cn`  
-Scope: `data-ai-platform` · Group: `regional-reference`
+Infrastructure: `kubernetes` · Manager: `unknown` · Compute: `cluster` · Deployment: `self-hosted`  
+Market: `cn` · Scope: `data-ai-platform` · Group: `regional-reference`
 
 [Microsoft Fabric Spark](https://learn.microsoft.com/en-us/fabric/data-engineering/spark-compute)
 
-Infrastructure: `unknown` · Manager: `unknown`  
-Compute: `unknown` · Deployment: `cloud` · Market: `global`  
-Scope: `data-ai-platform` · Group: `global-benchmark`
+Infrastructure: `unknown` · Manager: `unknown` · Compute: `unknown` · Deployment: `cloud`  
+Market: `global` · Scope: `data-ai-platform` · Group: `global-benchmark`
 
 [Onehouse Cloud / Quanton](https://docs.onehouse.ai/product/dataplane-setup/architecture/)
 
-Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `cluster` · Deployment: `byoc` · Market: `global`  
-Scope: `lakehouse-platform` · Group: `specialist-challenger`
+Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `cluster` · Deployment: `byoc`  
+Market: `global` · Scope: `lakehouse-platform` · Group: `specialist-challenger`
 
 [Oracle Big Data Service](https://docs.oracle.com/en-us/iaas/Content/bigdata/manage-cluster-patching-odh-update.htm)
 
-Infrastructure: `vm` · Manager: `yarn`  
-Compute: `cluster` · Deployment: `cloud` · Market: `global`  
-Scope: `data-ai-platform` · Group: `enterprise-platform`
+Infrastructure: `vm` · Manager: `yarn` · Compute: `cluster` · Deployment: `cloud`  
+Market: `global` · Scope: `data-ai-platform` · Group: `enterprise-platform`
 
 [Oracle Cloud Infrastructure Data Flow](https://docs.oracle.com/en-us/iaas/Content/data-flow/using/dfs_getting_started.htm)
 
-Infrastructure: `unknown` · Manager: `unknown`  
-Compute: `serverless` · Deployment: `cloud` · Market: `global`  
-Scope: `spark-service` · Group: `enterprise-platform`
+Infrastructure: `unknown` · Manager: `unknown` · Compute: `serverless` · Deployment: `cloud`  
+Market: `global` · Scope: `spark-service` · Group: `enterprise-platform`
 
 [Orange Business Flexible Engine Data Lake Insight](https://cloud.orange-business.com/wp-content/uploads/2022/06/Webinaire-DLI-pdf.pdf)
 
-Infrastructure: `unknown` · Manager: `unknown`  
-Compute: `serverless` · Deployment: `cloud` · Market: `europe`  
-Scope: `data-ai-platform` · Group: `regional-reference`
+Infrastructure: `unknown` · Manager: `unknown` · Compute: `serverless` · Deployment: `cloud`  
+Market: `europe` · Scope: `data-ai-platform` · Group: `regional-reference`
 
 [Orchestera](https://orchestera.com/how-orchestera-works)
 
-Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `cluster` · Deployment: `byoc` · Market: `global`  
-Scope: `spark-service` · Group: `specialist-challenger`
+Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `cluster` · Deployment: `byoc`  
+Market: `global` · Scope: `spark-service` · Group: `specialist-challenger`
 
 [OVHcloud Data Processing / Data Platform](https://www.ovhcloud.com/en-gb/public-cloud/data-platform/)
 
-Infrastructure: `unknown` · Manager: `unknown`  
-Compute: `unknown` · Deployment: `cloud` · Market: `europe`  
-Scope: `data-ai-platform` · Group: `regional-reference`
+Infrastructure: `unknown` · Manager: `unknown` · Compute: `unknown` · Deployment: `cloud`  
+Market: `europe` · Scope: `data-ai-platform` · Group: `regional-reference`
 
 [Palantir Foundry (Rubix)](https://www.palantir.com/docs/foundry/architecture-center/rubix)
 
-Infrastructure: `kubernetes` · Manager: `unknown`  
-Compute: `unknown` · Deployment: `unknown` · Market: `global`  
-Scope: `data-ai-platform` · Group: `enterprise-platform`
+Infrastructure: `kubernetes` · Manager: `unknown` · Compute: `unknown` · Deployment: `unknown`  
+Market: `global` · Scope: `data-ai-platform` · Group: `enterprise-platform`
 
 [Qubole Data Service](https://docs.qubole.com/en/latest/admin-guide/engine-admin/spark-admin/autoscale-spark.html)
 
-Infrastructure: `vm` · Manager: `yarn`  
-Compute: `cluster` · Deployment: `byoc` · Market: `global`  
-Scope: `data-ai-platform` · Group: `enterprise-platform`
+Infrastructure: `vm` · Manager: `yarn` · Compute: `cluster` · Deployment: `byoc`  
+Market: `global` · Scope: `data-ai-platform` · Group: `enterprise-platform`
 
 [Scaleway Clusters for Apache Spark](https://www.scaleway.com/en/docs/apache-spark/concepts/)
 
-Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `cluster` · Deployment: `cloud` · Market: `europe`  
-Scope: `spark-service` · Group: `regional-reference`
+Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `cluster` · Deployment: `cloud`  
+Market: `europe` · Scope: `spark-service` · Group: `regional-reference`
 
 [Snowflake Snowpark Connect / Snowpark Submit](https://docs.snowflake.com/en/developer-guide/snowpark-connect/snowpark-connect-apache-spark)
 
-Engine: `spark-compatible` · Infrastructure: `unknown` · Manager: `not-applicable`  
-Compute: `cluster` · Deployment: `cloud` · Market: `global`  
-Scope: `spark-api-compatibility` · Group: `adjacent-alternative`
+Engine: `spark-compatible` · Infrastructure: `unknown` · Manager: `not-applicable` · Compute: `cluster`  
+Deployment: `cloud` · Market: `global` · Scope: `spark-api-compatibility` · Group: `adjacent-alternative`
 
 [Stackable Managed Data Lakehouse](https://stackable.tech/en/managed-data-lakehouse/)
 
-Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `cluster` · Deployment: `cloud` · Market: `europe`  
-Scope: `lakehouse-platform` · Group: `specialist-challenger`
+Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `cluster` · Deployment: `cloud`  
+Market: `europe` · Scope: `lakehouse-platform` · Group: `specialist-challenger`
 
 [STACKIT Workflows](https://docs.stackit.cloud/products/data-and-ai/workflows/tutorials/launching-a-spark-cluster/)
 
-Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `unknown` · Deployment: `cloud` · Market: `europe`  
-Scope: `embedded-spark` · Group: `regional-reference`
+Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `unknown` · Deployment: `cloud`  
+Market: `europe` · Scope: `embedded-spark` · Group: `regional-reference`
 
 [T Cloud Public / Open Telekom Cloud Data Lake Insight](https://docs.otc.t-systems.com/data-lake-insight/dli-umn.pdf)
 
-Infrastructure: `kubernetes` · Manager: `unknown`  
-Compute: `serverless` · Deployment: `cloud` · Market: `europe`  
-Scope: `data-ai-platform` · Group: `regional-reference`
+Infrastructure: `kubernetes` · Manager: `unknown` · Compute: `serverless` · Deployment: `cloud`  
+Market: `europe` · Scope: `data-ai-platform` · Group: `regional-reference`
 
 [Tencent Cloud Data Lake Compute](https://cloud.tencent.com/document/product/1342/95666)
 
-Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `serverless` · Deployment: `cloud` · Market: `cn`  
-Scope: `data-ai-platform` · Group: `regional-reference`
+Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `serverless` · Deployment: `cloud`  
+Market: `cn` · Scope: `data-ai-platform` · Group: `regional-reference`
 
 [Tencent Cloud EMR](https://www.tencentcloud.com/document/product/1026/55459)
 
-Infrastructure: `vm` · Manager: `yarn`  
-Compute: `cluster` · Deployment: `cloud` · Market: `global`, `cn`  
-Scope: `data-ai-platform` · Group: `regional-reference`
+Infrastructure: `vm` · Manager: `yarn` · Compute: `cluster` · Deployment: `cloud`  
+Market: `global`, `cn` · Scope: `data-ai-platform` · Group: `regional-reference`
 
 [Tencent Cloud EMR on TKE](https://cloud.tencent.com/document/product/589/93152)
 
-Infrastructure: `kubernetes` · Manager: `unknown`  
-Compute: `cluster` · Deployment: `cloud` · Market: `cn`  
-Scope: `data-ai-platform` · Group: `regional-reference`
+Infrastructure: `kubernetes` · Manager: `unknown` · Compute: `cluster` · Deployment: `cloud`  
+Market: `cn` · Scope: `data-ai-platform` · Group: `regional-reference`
 
 [VK Cloud Cloud Spark](https://github.com/vk-cs/docs-public/blob/master/docs/ru/ml/spark-to-k8s/spark-to-k8s.md) · [Source](https://raw.githubusercontent.com/vk-cs/docs-public/master/docs/ru/ml/spark-to-k8s/spark-to-k8s.md)
 
-Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `cluster` · Deployment: `cloud` · Market: `ru-cis`  
-Scope: `spark-service` · Group: `regional-reference`
+Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `cluster` · Deployment: `cloud`  
+Market: `ru-cis` · Scope: `spark-service` · Group: `regional-reference`
 
 [Volcengine EMR on VKE](https://docs.volcengine.com/docs/e-map-reduce/emr-deployment-type-selection-guide?lang=en) · [Deployment options](https://docs.volcengine.com/docs/E-MapReduce/EMRdeploymenttypeselectionguide?lang=en)
 
-Infrastructure: `kubernetes` · Manager: `unknown`  
-Compute: `cluster` · Deployment: `cloud` · Market: `cn`  
-Scope: `data-ai-platform` · Group: `regional-reference`
+Infrastructure: `kubernetes` · Manager: `unknown` · Compute: `cluster` · Deployment: `cloud`  
+Market: `cn` · Scope: `data-ai-platform` · Group: `regional-reference`
 
 [Volcengine EMR Serverless](https://docs.volcengine.com/docs/e-map-reduce/product-architecture?lang=en) · [Architecture](https://docs.volcengine.com/docs/E-MapReduce/Productarchitecture-1?lang=en)
 
-Engine: `spark-derived` · Infrastructure: `kubernetes` · Manager: `unknown`  
-Compute: `serverless` · Deployment: `cloud` · Market: `cn`  
-Scope: `data-ai-platform` · Group: `regional-reference`
+Engine: `spark-derived` · Infrastructure: `kubernetes` · Manager: `unknown` · Compute: `serverless`  
+Deployment: `cloud` · Market: `cn` · Scope: `data-ai-platform` · Group: `regional-reference`
 
 [Yandex Cloud Managed Service for Apache Spark](https://yandex.cloud/en/services/managed-spark)
 
-Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `cluster` · Deployment: `cloud` · Market: `ru-cis`  
-Scope: `spark-service` · Group: `regional-reference`
+Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `cluster` · Deployment: `cloud`  
+Market: `ru-cis` · Scope: `spark-service` · Group: `regional-reference`
 
 [Yandex Data Processing](https://yandex.cloud/ru/docs/data-proc/concepts/autoscaling)
 
-Infrastructure: `vm` · Manager: `yarn`  
-Compute: `cluster` · Deployment: `cloud` · Market: `ru-cis`  
-Scope: `data-ai-platform` · Group: `regional-reference`
+Infrastructure: `vm` · Manager: `yarn` · Compute: `cluster` · Deployment: `cloud`  
+Market: `ru-cis` · Scope: `data-ai-platform` · Group: `regional-reference`
 
 [Yeedu](https://docs.yeedu.com/v2.10.0/) · [Architecture](https://docs.yeedu.com/) · [Cluster modes](https://docs.yeedu.com/v2.5.0/ui/clusters/)
 
-Engine: `spark-derived` · Infrastructure: `vm`, `bare-metal` · Manager: `standalone`  
-Compute: `cluster` · Deployment: `self-hosted` · Market: `global`  
-Scope: `spark-service` · Group: `specialist-challenger`
+Engine: `spark-derived` · Infrastructure: `vm`, `bare-metal` · Manager: `standalone` · Compute: `cluster`  
+Deployment: `self-hosted` · Market: `global` · Scope: `spark-service` · Group: `specialist-challenger`
 
 [Zetaris Enterprise (Kubernetes/Tanzu)](https://kbase.zetaris.com/knowledge/installing-zetaris-on-vmware)
 
-Infrastructure: `kubernetes` · Manager: `kubernetes`  
-Compute: `cluster` · Deployment: `self-hosted` · Market: `global`  
-Scope: `data-ai-platform` · Group: `enterprise-platform`
+Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `cluster` · Deployment: `self-hosted`  
+Market: `global` · Scope: `data-ai-platform` · Group: `enterprise-platform`
 
 ### Managed PostgreSQL
 
