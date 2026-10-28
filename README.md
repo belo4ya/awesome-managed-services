@@ -55,6 +55,7 @@
 - [Palantir Foundry (Rubix)](https://www.palantir.com/docs/foundry/architecture-center/rubix)
 - [Qubole Data Service](https://docs.qubole.com/en/latest/admin-guide/engine-admin/spark-admin/autoscale-spark.html)
 - [Scaleway Clusters for Apache Spark](https://www.scaleway.com/en/docs/apache-spark/concepts/)
+- [Snowflake Snowpark Connect / Snowpark Submit](https://docs.snowflake.com/en/developer-guide/snowpark-connect/snowpark-connect-apache-spark)
 - [Stackable Managed Data Lakehouse](https://stackable.tech/en/managed-data-lakehouse/)
 - [STACKIT Workflows](https://docs.stackit.cloud/products/data-and-ai/workflows/tutorials/launching-a-spark-cluster/)
 - [T Cloud Public / Open Telekom Cloud Data Lake Insight](https://docs.otc.t-systems.com/data-lake-insight/dli-umn.pdf)
