@@ -8,52 +8,38 @@
 
 ### Managed Spark
 
-Each reference describes its documented Spark execution modes. Multiple values denote supported alternatives, not every
-possible combination. `unknown` means the sources do not establish an attribute; it may accompany a known value when
-another mode or version remains undisclosed. `not-applicable` means the attribute does not apply. Each service name
-links to its primary reference.
+Tags describe documented modes and versions. Multiple values are alternatives, not necessarily valid combinations.
+`unknown`: not established by sources; `not-applicable`: does not apply.
 
-| Label          | Attribute               | Meaning                                                                                                                                                                                                                                                                                   |
-|----------------|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Engine         | `engine_family`         | Optional; omitted when `apache-spark` is the only mode (including ordinary vendor distributions). `spark-derived`: a different execution backend, such as a native engine; `spark-compatible`: Spark APIs executed by another engine; `unknown`: engine not established.                  |
-| Infrastructure | `infrastructure`        | Runtime substrate: `kubernetes`, `vm`, or `bare-metal`. Kubernetes running on VMs is recorded as `kubernetes`; Spark Standalone inside Kubernetes has infrastructure `kubernetes` and manager `standalone`.                                                                               |
-| Manager        | `spark_cluster_manager` | Spark resource manager: `kubernetes`, `yarn`, `standalone`, or documented proprietary `custom`; `unknown` if undisclosed; `not-applicable` for local execution or compatible engines without a Spark manager. Kubernetes infrastructure alone is insufficient.                            |
-| Compute        | `compute_model`         | `cluster`: users configure cluster or pool capacity, including temporary job clusters; `serverless`: users submit jobs or sessions without configuring an infrastructure cluster. Executor settings alone do not imply user-managed cluster capacity.                                     |
-| Deployment     | `deployment_mode`       | `cloud`: cloud-native or vendor-hosted offering; `byoc`: vendor-managed platform with a data plane in the customer's cloud account; `self-hosted`: a customer-deployed platform, in cloud or on premises.                                                                                 |
-| Market         | `market_focus`          | Editorial market focus: `global`, `ru-cis`, `cn`, or `europe`; not a list of supported deployment regions.                                                                                                                                                                                |
-| Scope          | `product_scope`         | `spark-service`, `lakehouse-platform`, `data-ai-platform`, `embedded-spark`, or `spark-api-compatibility`, according to Spark's role in the referenced offering.                                                                                                                          |
-| Group          | `reference_group`       | Product role: `leader` sets industry expectations; `challenger` competes through distinctive engineering; `established` offers mature operating experience; `follower` mainly follows common approaches; `legacy` has confirmed declining relevance; `unknown` has insufficient evidence. |
-| Tier           | `reference_tier`        | Editorial value as an engineering reference, independently of Group; see the scale below.                                                                                                                                                                                                 |
+| Tag            | Meaning                                                                                                                                                                                                  |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Engine         | Omitted for Apache Spark, including vendor distributions. `spark-derived`: a modified execution backend; `spark-compatible`: Spark APIs executed by another engine.                                      |
+| Infrastructure | Runtime: `kubernetes`, `vm`, `bare-metal`. Kubernetes on VMs is recorded as `kubernetes`.                                                                                                                |
+| Manager        | Spark resource manager: `kubernetes`, `yarn`, `standalone`, `custom` (proprietary).                                                                                                                      |
+| Compute        | `cluster`: users configure cluster or node-pool capacity, including temporary job clusters. `serverless`: jobs or sessions without managing an infrastructure cluster.                                   |
+| Deployment     | `cloud`: provider's own cloud service or vendor-hosted platform; `byoc`: vendor-managed data plane in the customer's cloud account; `self-hosted`: customer-deployed platform, in cloud or on premises.  |
+| Market         | Market focus: `global`, `ru-cis`, `cn`, `europe`. Not deployment regions.                                                                                                                                |
+| Scope          | Product category: `spark-service`, `lakehouse-platform`, `data-ai-platform`, `embedded-spark`, `spark-api-compatibility`.                                                                                |
+| Group          | `leader`: sets industry expectations; `challenger`: distinctive engineering; `established`: mature operating experience; `follower`: follows common approaches; `legacy`: confirmed declining relevance. |
+| Tier           | Engineering reference value, rated below independently of Group.                                                                                                                                         |
 
-Architecture and deployment tags describe documented modes, not exhaustive compatibility guarantees. Scope, Market,
-Group, and Tier are editorial classifications.
+Spark Standalone on Kubernetes uses Infrastructure `kubernetes` and Manager `standalone`.
+Market, Scope, Group, and Tier are editorial classifications; Group and Tier assess the Spark offering, not the vendor.
 
-| Tier       | Value as an engineering reference                                                                                                    |
-|------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| 💎💎💎💎💎 | Exceptional: an industry benchmark or an exceptionally deep combination of documented independent engineering and operating lessons. |
-| ⭐⭐⭐⭐   | Strong: deep engineering, substantial differentiation, or extensive operating experience.                                            |
-| ⭐⭐⭐     | Useful: a mature solution or documented mechanisms and tradeoffs worth examining.                                                    |
-| ⭐⭐       | Limited additional value: mostly common approaches, with few substantial differences established.                                    |
-| ⭐         | Low current relevance: confirmed technical lag, stagnation, or significant limitations.                                              |
-| `unrated`  | Insufficient evidence for an assessment; not a low score.                                                                            |
-
-Group and Tier are editorial assessments of the referenced Spark offering, not the vendor as a whole.
-They reflect documented engineering and operating experience, not independently measured performance or market share.
-A challenger can have the highest Tier; a leader's individual offerings can have different Tiers. Sparse documentation
-does not establish `follower` or `legacy`. Research priority depends on these attributes and the current research topic.
-
-Reviewed on 2026-10-28 against public primary sources. Tags apply to the referenced modes and documented versions.
+| Tier       | Engineering reference value                                                               |
+|------------|-------------------------------------------------------------------------------------------|
+| 💎💎💎💎💎 | Industry benchmark or exceptional depth of original engineering and operating experience. |
+| ⭐⭐⭐⭐   | Deep engineering, substantial differentiation, or extensive operating experience.         |
+| ⭐⭐⭐     | Mature solution or useful mechanisms and tradeoffs.                                       |
+| ⭐⭐       | Mostly common approaches; few distinctive mechanisms established.                         |
+| ⭐         | Confirmed technical lag, stagnation, or major limitations that reduce current relevance.  |
+| `unrated`  | Insufficient evidence to rate.                                                            |
 
 [Acceldata xDP / xLake (AppSpark)](https://docs.acceldata.io/xdp/xdp/xdp-documentation/app-spark)
 
 Engine: `apache-spark`, `spark-derived` · Infrastructure: `kubernetes` · Manager: `kubernetes` · Compute: `cluster`  
 Deployment: `byoc`, `self-hosted` · Market: `global` · Scope: `data-ai-platform` · Group: `challenger`  
 Tier: ⭐⭐⭐⭐
-
-[Alibaba Cloud AnalyticDB for MySQL (Spark)](https://www.alibabacloud.com/help/en/analyticdb/analyticdb-for-mysql/user-guide/spark-application-configuration-parameters)
-
-Infrastructure: `unknown` · Manager: `unknown` · Compute: `serverless` · Deployment: `cloud`  
-Market: `global`, `cn` · Scope: `embedded-spark` · Group: `established` · Tier: ⭐⭐⭐
 
 [Alibaba Cloud EMR on ACK](https://www.alibabacloud.com/help/en/emr/emr-on-ack/getting-started/quick-start-for-emr-on-ack)
 
